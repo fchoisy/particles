@@ -1,0 +1,21 @@
+{
+  "name": "cube",
+  "version": "0.1.0",
+  "description": "Playing with ThreeJS",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack serve --open",
+    "build": "webpack"
+  },
+  "author": "fchoisy",
+  "license": "ISC",
+  "dependencies": {
+    "three": "^0.124.0",
+    "webpack": "^5.11.1",
+    "webpack-cli": "^4.3.0"
+  },
+  "devDependencies": {
+    "webpack-dev-server": "^3.11.1"
+  }
+}
